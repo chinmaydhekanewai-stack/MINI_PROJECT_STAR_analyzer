@@ -8,7 +8,7 @@ typedef enum { REGION_MAIN_SEQUENCE, REGION_SUBGIANT, REGION_GIANT,
  
 typedef enum { THERMAL_NONE, THERMAL_BV, THERMAL_TEMP_K } ThermalTag;
  
-typedef struct {
+typedef struct{
     int         hr;              /* Harvard Revised number, primary key   */
     const char *name;            /* common name or "HR nnn"               */
     const char *constellation;   /* IAU 3-letter code, "" if unknown      */
