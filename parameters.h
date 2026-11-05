@@ -2,7 +2,7 @@
 #define PARAMETERS_H
  
 #include "data_access.h"
- 
+
 /* ---------------------------------------------------------------- status */
 typedef enum {
     CALC_OK,               /* all main parameters computed                   */
