@@ -37,6 +37,5 @@ double airmass_from_altitude(double alt_deg);
  * Returns 0 on success, -1 on NULL pointer, -2 on invalid date/latitude/longitude. */
 int    star_sky_position(const Star *star, double jd,
                          double lat_deg, double lon_east_deg, SkyPosition *out);
- 
+
 #endif
- 
