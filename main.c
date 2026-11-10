@@ -9,7 +9,7 @@ int main(void)
     char line[64];
     long hr;
     char *end;
- 
+
     printf("StellarCalc - %d stars in catalogue (version %d)\n", SEED_COUNT, CATALOG_VERSION);
     printf("Enter HR number: ");
  
