@@ -31,7 +31,7 @@ double julian_date(int year, int month, int day, double ut_hours)
 double normalize_deg(double deg)
 {
     double r = fmod(deg, 360.0);
-    return r < 0.0 ? r + 360.0 : r;
+    return r < 0.0 ? r + 360.0 : r;    
 }
  
 double local_sidereal_time_deg(double jd, double longitude_east_deg)
